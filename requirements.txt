@@ -4,4 +4,9 @@ selenium
 face_recognition
 WeasyPrint
 requests-html
-pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+
+# not directly required, pinned by Snyk to avoid vulnerabilities
+fonttools>=4.43.0
+numpy>=1.22.2
+pillow>=10.0.1
+zipp>=3.19.1
