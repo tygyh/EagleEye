@@ -1,12 +1,13 @@
 termcolor
 opencv-python
-selenium
+selenium~=4.15.1
 face_recognition
-WeasyPrint
+weasyprint
 requests-html
 
 # not directly required, pinned by Snyk to avoid vulnerabilities
 fonttools>=4.43.0
 numpy>=1.22.2
 pillow>=10.0.1
+requests>=2.32.2
 zipp>=3.19.1
